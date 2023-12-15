@@ -1,0 +1,42 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align content to the top */
+    padding: 20px;
+    gap: 20px;
+    min-height: 80vh; /* Adjust as needed */
+    padding-bottom: 100px; /* Add more padding at the bottom */
+    }
+
+.about-photo {
+    width: 200px;
+    height: auto;
+    border-radius: 10%;
+    object-fit: cover;
+    }
+
+    .about-text {
+        max-width: 1000px;
+        color: #eee3e3; /* Light color for contrast */
+        font-size: 1.1em;
+        font-weight: 700;
+        background: linear-gradient(
+            to bottom, 
+            rgba(0, 0, 0, 0.6), /* Starting color - semi-transparent black */
+            rgba(128, 128, 128, 0.6) /* Ending color - adjust as needed */
+        ); /* Linear gradient */
+        padding: 1rem; /* Padding around the text */
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+        line-height: 1.6;
+    }
+    
+    .about-text h2 {
+        margin-top: 0;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Subtle shadow for the heading */
+    }
+    
+    .about-text p {
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Subtle shadow for the paragraph */
+    }

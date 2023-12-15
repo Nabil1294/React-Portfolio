@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent; /* Adjusted for semi-transparent black */
+    backdrop-filter: blur(50px); /* Adjusted blur for subtlety */
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.header-title {
+    font-size: 2em;
+    color: #DDDDDD; /* Lighter shade for better visibility */
+    font-weight: bold;
+    margin: 0;
+    flex-grow: 0;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-link {
+    color: #646262; /* Matching the header title color */
+    font-size: large;
+    font-weight: 700;
+    transition: color 0.3s ease;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #000000; /* Gold color for active/hover state */
+}
+
+
+
+
+
+
