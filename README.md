@@ -25,5 +25,5 @@ This project is scaffolded using Vite. To set up this project:
 
 ## Deployment
 
-- **Deployed Application**: [https://657e7141b771992c174c7040--lively-lolly-64911b.netlify.app/about]
+- **Deployed Application**: [https://mahmoudabdelgawad.netlify.app/]
 - **GitHub Repository**: [https://github.com/Nabil1294/React-Portfolio]
